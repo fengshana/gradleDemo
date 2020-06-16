@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="com.fsn.web.main:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/com_fsn_web_main_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="com.fsn.web.main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:5.0.2.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context:5.0.2.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-web:5.0.2.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:5.0.2.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-beans:5.0.2.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:5.0.2.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-core:5.0.2.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-jcl:5.0.2.RELEASE" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="com.fsn.web.main/web/Web" />
+      <element id="dir-copy" path="$PROJECT_DIR$/web/src/main/webapp" />
+    </root>
+  </artifact>
+</component>

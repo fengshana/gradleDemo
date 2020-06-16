@@ -1,0 +1,37 @@
+/**
+ * 父模块当中已经存在有这些内容；
+ * 所以当前子模块当中这些内容可以删除；
+ * plugins {
+ *     id 'java'
+ * }
+ * group 'gradleParentDemo'
+ * version '1.0-SNAPSHOT'
+ *
+ * sourceCompatibility = 1.8
+ *
+ * repositories {
+ *      mavenLocal()
+ *     mavenCentral()
+ *
+ * dependencies {
+ * testCompile group: 'junit', name: 'junit', version: '4.12'
+ * }
+ */
+
+
+plugins {
+    id 'java'
+}
+
+group 'com.fsn'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

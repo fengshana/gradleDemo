@@ -1,0 +1,133 @@
+
+allprojects {
+    apply plugin: 'java'
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    apply plugin: 'idea'
+}
+
+
+
+subprojects {
+    dependencies {
+        compile 'org.springframework:spring-context:5.0.2.RELEASE'
+        compile 'org.springframework:spring-web:5.0.2.RELEASE'
+        compile 'org.springframework:spring-webmvc:5.0.2.RELEASE'
+        compile 'javax.servlet:javax.servlet-api:3.0.1'
+        compile 'javax.servlet:jsp-api:2.0'
+        testCompile 'junit:junit:4.12'
+    }
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+}
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+    dependencies {
+        testCompile group: 'junit', name: 'junit', version: '4.12'
+        // https://mvnrepository.com/artifact/org.springframework/spring-context
+        compile group: 'org.springframework', name: 'spring-context', version: '5.0.2.RELEASE'
+        // https://mvnrepository.com/artifact/org.springframework/spring-web
+        compile group: 'org.springframework', name: 'spring-web', version: '5.0.2.RELEASE'
+        // https://mvnrepository.com/artifact/org.springframework/spring-webmvc
+        compile group: 'org.springframework', name: 'spring-webmvc', version: '5.0.2.RELEASE'
+        // https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api
+        /*
+        作用范围为providedCompile
+        provided作用域指的是只在编译阶段起作用，运行阶段不起作用；
+        由原来的providedCompile替换成了现在的compileOnly
+         */
+        compile group: 'javax.servlet', name: 'javax.servlet-api', version: '3.0.1'
+        // https://mvnrepository.com/artifact/javax.servlet/jsp-api
+        /*
+        jsp的作用域依然是provided
+        由原来的providedCompile替换成了现在的compileOnly
+        使用providedCompile gradle编译报错；
+         */
+        compile group: 'javax.servlet', name: 'jsp-api', version: '2.0'
+    }
+    /**
+     * 如果想要所有的子模块都可以使用以下的内容都需要剪贴放到allprojects{}块当中
+     * 也就是父模块的allprojects块当中放的内容与之前直接放在build.gradle当中的内容无区别；
+     */
+///**
+// * 让idea识别 webapp 文件夹；
+// * 由于当前 webapp 文件夹呈现处灰色并未有所标记
+// * 即指定打包方式
+// * 这个时候等待编译之后或者是右侧Gradle菜单栏当中的Refresh All Gradle Projects之后；
+// * 此时再去观察gradleDemo该工程当中的webapp目录就被识别为webapp目录了；
+// * 即该webapp目录图标上有一个蓝点；
+// */
+////该种写法编译报错；可能是gradle版本不同的原因所导致的；
+////apply plugins: 'java'
+////apply plugins: 'war'
+///**
+// * 运行的环境
+// */
+//plugins {
+//    id 'java'
+//    id 'war'
+//}
+//
+///**
+// * group 公司/团队名
+// * version 版本
+// */
+//group 'com.fsn'
+//version '1.0-SNAPSHOT'
+//
+///**
+// * java jdk版本
+// */
+//sourceCompatibility = 1.8
+//
+///**
+// * 指定所使用仓库的路径
+// * mavenCentral() 表示使用中央仓库，此刻项目中所需要的jar包都会默认从中央仓库下载到本地指定目录
+// *
+// * mavenLocal()
+// * mavenCentral()
+// * 以上配置表示先从本地仓库寻找依赖，如果没有再从中央仓库下载。
+// * mavenCentral()
+// * 如果只配置中央仓库，表示直接从中央仓库下载jar包；
+// * 但是如果指定下载的位置已经有了，就不会再次下载了；
+// *
+// */
+//repositories {
+//    mavenLocal()
+//    mavenCentral()
+//}
+//
+///**
+// * 1. gradle工程所有的jar包的坐标都在dependencies属性内放置
+// * 2. 每一个jar包的坐标都由三个基本元素组成 group、name、version
+// * 3. testCompile 表示该jar包在测试的时候起作用，该属性为jar包的作用域；
+// *    在gradle里面添加坐标的时候都要带上jar包的作用域
+// * compile/testCompile其实是一个方法
+// *
+// * 做spring mvc则需要spring的四大核心包
+// * spring-context、spring-web、spring-webmvc、servlet(用于请求)
+// */
+//dependencies {
+//    testCompile group: 'junit', name: 'junit', version: '4.12'
+//    // https://mvnrepository.com/artifact/org.springframework/spring-context
+//    compile group: 'org.springframework', name: 'spring-context', version: '5.0.2.RELEASE'
+//    // https://mvnrepository.com/artifact/org.springframework/spring-web
+//    compile group: 'org.springframework', name: 'spring-web', version: '5.0.2.RELEASE'
+//    // https://mvnrepository.com/artifact/org.springframework/spring-webmvc
+//    compile group: 'org.springframework', name: 'spring-webmvc', version: '5.0.2.RELEASE'
+//    // https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api
+//    /*
+//    作用范围为providedCompile
+//    provided作用域指的是只在编译阶段起作用，运行阶段不起作用；
+//     */
+//    providedCompile group: 'javax.servlet', name: 'javax.servlet-api', version: '3.0.1'
+//    // https://mvnrepository.com/artifact/javax.servlet/jsp-api
+//    /*
+//    jsp的作用域依然是provided
+//     */
+//    providedCompile group: 'javax.servlet', name: 'jsp-api', version: '2.0'
+//
+//}

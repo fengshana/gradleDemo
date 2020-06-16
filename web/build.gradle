@@ -1,0 +1,38 @@
+/**
+ * 与dao子模块一致，由于父模块当中这些已经定义好；
+ * 所以在子模块当中不需要再次定义，可以进行删除；
+ * plugins {*     id 'java'
+ * }
+ *
+ * group 'gradleParentDemo'
+ * version '1.0-SNAPSHOT'
+ *
+ * sourceCompatibility = 1.8
+ *
+ * repositories {
+ *     mavenCentral()
+ * }
+ *
+ * dependencies {
+ *     testCompile group: 'junit', name: 'junit', version: '4.12'* }
+ */
+plugins {
+    id 'java'
+    id 'war'
+}
+
+group 'com.fsn'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories{
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile project(":dao")
+    compile project(":service")
+}
