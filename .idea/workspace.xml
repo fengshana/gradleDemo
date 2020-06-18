@@ -6,7 +6,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="248d8790-6d64-425e-b69b-ae5dc697c799" name="Default Changelist" comment="" />
+    <list default="true" id="248d8790-6d64-425e-b69b-ae5dc697c799" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/fsn/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/web/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/fsn/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/fsn/controller/UserController.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -49,17 +56,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="gradleDemo" type="f1a62948:ProjectNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="gradleDemo" type="f1a62948:ProjectNode" />
-                <item name=":dao" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="gradleDemo" type="f1a62948:ProjectNode" />
-                <item name=":dao" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -68,7 +64,45 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/fsn/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/fsn/controller/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+              <folding>
+                <element signature="e#507#508#0" expanded="true" />
+                <element signature="e#536#537#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,17 +120,20 @@
       <find>index_jsp</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GroovyConsoleState">
     <option name="list">
       <list>
         <Entry>
           <option name="url" value="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console_1.groovy" />
-          <option name="moduleName" value="com.fsn.gradleDemo" />
+          <option name="moduleName" value="" />
           <option name="title" value="com.fsn.gradleDemo (Bundled Groovy 2.4.15)" />
         </Entry>
         <Entry>
           <option name="url" value="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console.groovy" />
-          <option name="moduleName" value="com.fsn.gradleDemo" />
+          <option name="moduleName" value="" />
           <option name="title" value="com.fsn.gradleDemo (Bundled Groovy 2.4.15)" />
         </Entry>
       </list>
@@ -117,18 +154,19 @@
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/dao/build.gradle" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/fsn/service/UserService.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/fsn/controller/UserController.java" />
         <option value="$PROJECT_DIR$/dao/src/main/java/com/fsn/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/list.jsp" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/build.gradle" />
         <option value="$PROJECT_DIR$/service/build.gradle" />
         <option value="$PROJECT_DIR$/web/src/main/resources/springmvc.xml" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/fsn/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/dao/src/main/java/com/fsn/dao/impl/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/web/build.gradle" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/fsn/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/fsn/controller/TestController.java" />
       </list>
     </option>
   </component>
@@ -155,9 +193,9 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="921" />
-    <option name="y" value="6" />
-    <option name="width" value="960" />
+    <option name="x" value="-108" />
+    <option name="y" value="27" />
+    <option name="width" value="1248" />
     <option name="height" value="1092" />
   </component>
   <component name="ProjectView">
@@ -165,7 +203,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,10 +210,54 @@
               <item name="gradleDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="gradleDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="gradleDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gradleDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="gradleDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gradleDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gradleDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gradleDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="gradleDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gradleDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gradleDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gradleDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gradleDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gradleDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -194,12 +275,15 @@
     <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Project\gradleDemo\src\main\webapp\WEB-INF" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fsn.controller" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Project\gradleDemo\web\src\main\resources" />
       <recent name="F:\Project\gradleDemo\web\src\main\webapp" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Project\gradleDemo\src\main\webapp\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -418,6 +502,8 @@
       <workItem from="1592263302182" duration="7856000" />
       <workItem from="1592291747197" duration="3287000" />
       <workItem from="1592296041585" duration="12635000" />
+      <workItem from="1592385949364" duration="644000" />
+      <workItem from="1592457739170" duration="1163000" />
     </task>
     <servers />
   </component>
@@ -427,12 +513,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26687000" />
+    <option name="totallyTimeSpent" value="28494000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2586904" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26677445" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -443,12 +529,12 @@
       <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.2218543" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49636218" weight="0.47019866" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49636218" visible="true" weight="0.37645108" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Build" order="8" weight="0.33278146" />
+      <window_info anchor="bottom" id="Build" order="8" weight="0.33167496" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32998326" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50363785" side_tool="true" weight="0.21688741" />
@@ -551,9 +637,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com.fsn.service/UserService">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com.fsn.service/UserService" />
     <entry file="file://$PROJECT_DIR$/dao/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
@@ -664,16 +748,6 @@
         <state relative-caret-position="-250" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -767,22 +841,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/fsn/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fsn/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/fsn/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/fsn/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
           </folding>
         </state>
       </provider>
